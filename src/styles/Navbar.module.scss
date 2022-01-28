@@ -31,5 +31,15 @@
                 padding: 0.75rem 0 0.75rem 0.75rem;
             }
         }
-    }   
+    }
+
+    @media screen and (max-width: 400px) {
+        .navbar__wrapper {
+            flex-direction: column;
+        }
+
+        .navbar__menu {
+            margin-top: 0.75rem;
+        }
+    }
 }
