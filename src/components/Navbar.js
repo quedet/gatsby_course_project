@@ -1,35 +1,37 @@
 import React from 'react';
 import { Link } from 'gatsby'
+import * as NavStyles from '../styles/Navbar.module.scss'
+
 
 function Navbar() {
   return (
-    <nav className='navbar'>
-    <div className='navbar__wrapper'>
-      <div className='navbar__brand'>
-        <div className='navbar__items'>
-          <Link className='navbar__link' to='/'>
+    <nav className={ NavStyles.navbar }>
+    <div className={NavStyles.navbar__wrapper}>
+      <div className={NavStyles.navbar__brand}>
+        <div className={NavStyles.navbar__items}>
+          <Link className={NavStyles.navbar__link} to='/'>
             Feido Blogs
           </Link>
         </div>
       </div>
-      <div className='navbar__menu'>
-        <div className='navbar__items'>
-          <Link className='navbar__link' to='/'>
+      <div className={NavStyles.navbar__menu}>
+        <div className={NavStyles.navbar__items}>
+          <Link className={NavStyles.navbar__link} to='/'>
             Home
           </Link>
         </div>
-        <div className='navbar__items'>
-          <Link className='navbar__link' to='/about'>
-            About
-          </Link>
-        </div>
-        <div className='navbar__items'>
-          <Link className='navbar__link' to='/users'>
+        <div className={NavStyles.navbar__items}>
+          <Link className={NavStyles.navbar__link} to='/users'>
             Users
           </Link>
         </div>
-        <div className='navbar__items'>
-          <Link className='navbar__link' to='/contact'>
+        <div className={NavStyles.navbar__items}>
+          <Link className={NavStyles.navbar__link} to='/about'>
+            About
+          </Link>
+        </div>
+        <div className={NavStyles.navbar__items}>
+          <Link className={NavStyles.navbar__link} to='/contact'>
             Contact Us
           </Link>
         </div>

@@ -5,7 +5,7 @@ const IndexPage = () => {
   return <Layout title={'Home Page'}>
       <div className="home">
         <div className="home__wrapper">
-          <h1>Index Page</h1>
+          <h1 className="title"><span className="title__text__secondary">Index</span>{' '}<span className="title__text__emphasis">Page</span></h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit duis eleifend proin mattis ipsum at ex turpis elementum eros venenatis consectetur. Posuere cursus dictumst vivamus consectetur laoreet lobortis turpis finibus justo duis varius inceptos egestas mi.
             Tempor integer blandit auctor accumsan consectetur nunc nisi aliquam felis potenti sit mattis. Sodales lobortis faucibus facilisis suscipit etiam. Gravida mattis leo aptent dictumst torquent sodales felis odio nam laoreet interdum per maximus. Amet proin nibh himenaeos platea amet scelerisque scelerisque curabitur malesuada donec arcu. Habitasse viverra volutpat nibh molestie id amet lobortis nunc placerat ultrices ante consectetur.
